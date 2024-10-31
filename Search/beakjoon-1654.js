@@ -25,7 +25,6 @@ while (min <= max) {
   } else {
     max = mid - 1;
   }
-  console.log(mid);
 }
 
 console.log(max);
