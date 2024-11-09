@@ -1,5 +1,4 @@
 var fs = require("fs");
-const { join } = require("path");
 var input = fs.readFileSync("./example.txt").toString().trim().split("\n");
 /*let input = require('fs').readFileSync('/dev/stdin')
   .toString()
